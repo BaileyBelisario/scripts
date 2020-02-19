@@ -23,7 +23,7 @@ counter=0
 
 while [ $flag -eq 0 ]
 do
-	if [[ $(ps -p $pid | grep $pid | cut -d ' ' -f2) == $pid || $(ps -p $pid | grep $pid | cut -d ' ' -f3) == $pid ]]
+	if [[ $(ps -p $pid | grep $pid | cut -d ' ' -f1) == $pid || $(ps -p $pid | grep $pid | cut -d ' ' -f2) == $pid || $(ps -p $pid | grep $pid | cut -d ' ' -f2) == $pid || $(ps -p $pid | grep $pid | cut -d ' ' -f4) == $pid ]]
 	then
 		if [ $counter -lt 5 ]
 		then
