@@ -13,11 +13,10 @@ if [[ ! -d $chal ]]; then
 	mkdir -p $chal
 fi
 
-if [[ ! -d $chal ]]; then
+if [[ ! -d $box ]]; then
 	mkdir -p $box
 fi
 
-#mkdir -p ~/Documents/htb/challenges
 printf "\n"
 printf "     -=== Welcome to EaseHTB ===-\n\n"
 printf "          ------------------\n"
