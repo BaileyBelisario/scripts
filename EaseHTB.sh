@@ -18,14 +18,14 @@ if [[ ! -d $chal ]]; then
 fi
 
 #mkdir -p ~/Documents/htb/challenges
-
-printf "\n     -=== Welcome to EaseHTB ===-\n\n"
-printf "            ------------------\n"
-printf "            |    Make Menu   |\n"
-printf "            ------------------\n"
-printf "            |       Box == B |\n"
-printf "            | Challenge == C |\n"
-printf "            ------------------\n\n"
+printf "\n"
+printf "     -=== Welcome to EaseHTB ===-\n\n"
+printf "          ------------------\n"
+printf "          |    Make Menu   |\n"
+printf "          ------------------\n"
+printf "          |       Box == B |\n"
+printf "          | Challenge == C |\n"
+printf "          ------------------\n\n"
 printf "   Choice: "
 read choice
 
